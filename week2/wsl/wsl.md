@@ -43,6 +43,22 @@
 3. **开发**：完整开发环境搭建
 4. **运维**：备份、迁移和故障排除
 
----
+## 参考资料
 
+本笔记整理参考了以下资料：
+
+### 官方文档
+- [Microsoft WSL 官方文档](https://learn.microsoft.com/zh-cn/windows/wsl/) - Windows Subsystem for Linux 官方完整文档
+
+### 参考博客文章
+1. [Windows10/11 三步安装wsl2 Ubuntu20.04（任意盘）](https://zhuanlan.zhihu.com/p/466001838) - 林夕丶
+2. [在网络状况不佳的情况下离线安装wsl2/linux发行版](https://zhuanlan.zhihu.com/p/640621418) - 一只大肥猫呦
+3. [【调试笔记-20240522-Windows-WSL 修改已安装发行版名称】](https://blog.csdn.net/dvd37784302/article/details/139106309) - David唐辉
+4. [在 Win11安装 Ubuntu20.04子系统 WSL2 到其他盘](https://blog.csdn.net/orange1710/article/details/131904929) - 1710orange
+5. [Linux命令行基础教程](https://www.kancloud.cn/thinkphp/linux-command-line/39431) - Linux命令行基础知识参考
+
+### 社区资源
+- [WSL GitHub 仓库](https://github.com/microsoft/WSL)
+
+---
 *最后更新：2025年7月22日*
