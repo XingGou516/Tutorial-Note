@@ -36,7 +36,7 @@
 
 - 约束优化形式（公式 (1)）：$\min_{w,\Theta} L(w)\quad\text{s.t.}\quad w=\Delta(\Theta)$。
 
-![图1：模型压缩示意](Model_Compression/image.png)
+![图1：模型压缩示意](LC_algorithm/image.png)
 
 图1：模型压缩示意。绿色为损失等高线，灰色为由解压映射 $\Delta$ 定义的可行集 $\mathcal{C}$；图中标出参考模型 $w$（不可行）、直接压缩点 $w_{\mathrm{DC}}=\Delta(\Theta_{\mathrm{DC}})$（可行但未必在 $\mathcal{C}$ 上最优）以及最优压缩点 $w^{\ast}=\Delta(\Theta^{\ast})$（在 $\mathcal{C}$ 上的局部最优）。子图展示多个局部极小值与不同压缩等级对应的可行集 $C_1,C_2,\dots$。
 - 这样写的好处是把“学习任务”部分（目标中的 $L(w)$）和“压缩/参数化”部分（约束 $w=\Delta(\Theta)$）明显分离，便于交替优化设计（Learning–Compression，LC）。
